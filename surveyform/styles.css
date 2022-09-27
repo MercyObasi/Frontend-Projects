@@ -1,0 +1,100 @@
+body{
+    width: 500px;
+    margin: auto;
+    padding-right: 200px;
+    background-image: linear-gradient(115deg, rgba(58,58,158,0.8), rgba(136,136,207,0.8)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: cursive;
+  }
+
+  header{
+    margin-left: 30px;
+    
+  }
+  .description{
+    font-style: italic;  
+    text-align: center;
+    margin: 2px 0 20px;
+    font-weight: lighter;
+
+  }
+  
+  form{
+    width: 700px;
+    margin: auto 20px;
+    border-right: 10px;
+    padding: 2rem;
+    background: rgba(27,27,50,0.7);
+    display: block;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+  }
+
+  .hold{
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    margin: 2px 0 0;
+  }
+  
+  fieldset{
+    border: none; 
+    padding: 1rem 0;
+  
+  }
+  
+  label{
+    display: block;
+    margin: 0;
+    padding: 0.2rem 0;
+    font-size: 19px;
+  }
+  input, textarea, select{
+    display: block;
+    margin: 1px auto;
+    min-height: 3em;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 1rem;
+    border: 2px solid #dadada;
+  }
+  
+  input[placeholder]{
+    font-family:cursive;
+    overflow: hidden;
+  }
+  
+  .check{
+    display:inline-block;
+    width: 4%;
+    vertical-align: middle;
+  }
+  
+  .legend{
+    font-size: 19px;
+  }
+  
+  .clue{
+    font-size:13px;
+    font-style: italic;
+    color: #E2DFD2;
+  }
+
+.glowing-border:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+  button{
+    display: block;
+    min-height: 2.5em;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 1px #8080800A;
+    background: hsla(200,73%,44%,1);
+    border: none;
+    border-radius: 3px;
+  }
